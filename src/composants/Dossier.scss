@@ -1,0 +1,41 @@
+.Dossier {
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+
+    img {
+        width: 100%;
+    }
+    
+    .deplacer svg {
+        height:35px;
+        width:35px;
+        background-color: grey;
+        opacity: 45%;
+        border-radius: 40px;
+        position:absolute;
+        margin:10px;
+        padding:5px;
+        cursor: pointer;
+    }
+
+    .modifier svg {
+        align-self: flex-end;
+        cursor: pointer;
+        padding-left: 88%;
+        margin-bottom:15px;
+    }
+    
+    .info {
+        padding:15px;
+
+        h2 {
+            font-weight: 500;
+        }
+        p {
+            font-weight: 550;
+        }
+    }
+}
